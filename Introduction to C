@@ -1,0 +1,26 @@
+The C Language is developed by Dennis Ritchie(Founder of C language) in 1972 @bell labs in AT&T(American Telephone and Telegraph) America for creating system applications that directly interact with the hardware devices such as drivers, kernels, etc.
+It is considered as the base for other programming languages, that is why it is known as mother language.
+C programming is defined as a;
+Mother language: is considered as the mother language of all the modern programming languages because most of the compilers, JVMs, Kernels, etc. are written in C language, and most of the programming languages follow C syntax, for example, C++, Java, C#, etc.
+It provides the core concepts like the array, strings, functions, file handling, etc. that are being used in many languages like C++, Java, C#, etc.
+System programming language: This is used to create system software, C language is a system programming language because it can be used to do low-level programming (for example driver and kernel). It is generally used to create hardware devices, OS, drivers, kernels, etc. For example, Linux kernel is written in C.
+It can't be used for internet programming like Java, .Net, PHP, etc.
+Procedure-oriented programming language: A procedure is known as a function, method, routine, subroutine, etc. A procedural language specifies a series of steps for the program to solve the problem. A procedural language breaks the program into functions, data structures, etc. C is a procedural language. In C, variables and function prototypes must be declared before being used.
+Structured programming: A structured programming language is a subset of the procedural language. Structure means to break a program into parts or blocks so that it may be easy to understand. In the C language, we break the program into parts using functions. It makes the program easier to understand and modify.
+Mid-level programming language: C is considered as a middle-level language because it supports the feature of both low-level and high-level languages. C language program is converted into assembly code, it supports pointer arithmetic (low-level), but it is machine independent (a feature of high-level).
+A Low-level language is specific to one machine, i.e., machine dependent. It is machine dependent, fast to run. But it is not easy to understand.
+A High-Level language is not specific to one machine, i.e., machine independent. It is easy to understand.
+C language is not object oriented, it is statistically typed.
+HISTORY OF C: C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A. It was developed to overcome the problems of previous languages such as B, BCPL, etc. C language was developed to be used in UNIX operating system. Before C, we had the likes of Algol, BCPL,B, Traditional C, ANSI C, C99 etc.
+FEATURES OF C LANGUAGE;
+1) Simple:C is a simple language in the sense that it provides a structured approach (to break the problem into parts), the rich set of library functions, data types, etc.
+2) Machine Independent or Portable: Unlike assembly language, c programs can be executed on different machines with some machine specific changes. Therefore, C is a machine independent language.
+
+3) Mid-level programming language: Although, C is intended to do low-level programming. It is used to develop system applications such as kernel, driver, etc. It also supports the features of a high-level language. That is why it is known as mid-level language.
+4) Structured programming language: C is a structured programming language in the sense that we can break the program into parts using functions. So, it is easy to understand and modify. Functions also provide code reusability.
+5) Rich Library:C provides a lot of inbuilt functions that make the development fast.
+6) Memory Management:It supports the feature of dynamic memory allocation. In C language, we can free the allocated memory at any time by calling the free() function.
+7) Speed: The compilation and execution time of C language is fast since there are lesser inbuilt functions and hence the lesser overhead.
+8) Pointer: C provides the feature of pointers. We can directly interact with the memory by using the pointers. We can use pointers for memory, structures, functions, array, etc.
+9) Recursion: In C, we can call the function within the function. It provides code reusability for every function. Recursion enables us to use the approach of backtracking.
+10) Extensible: C language is extensible because it can easily adopt new features.
