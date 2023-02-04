@@ -1,0 +1,19 @@
+The compilation is a process of converting the source code into object code and it is done with the help of a compiler. it checks or syntactical or structural errors before generating the object code.
+The compilation process can be divided into four steps, i.e., Pre-processing, Compiling, Assembling, and Linking. They are further explained as;
+Preprocessor: Here the source code is taken as an input and all the comments are removed. The source code is given an extension ".c", which is being expanded and then passed to the compiler.
+Compiler: Here the code taken from the preprocessor is coverted into assembly code. It is also called the C compiler.
+Assembler: Here, the assembly code is converted to an object code. The name of this object file is the same as the source file and is classified as ".obj" being an object file.
+Linker:The main working of the linker is to combine the object code of library files with the object code of our program and other files. All programs written in C use library functions and there are stored in '.lib' or '.a' extension. They are also pre-compiled. The output of a linker is the executable file which has same name as the source file but differs in their extension.
+Steps taken to execute a Program following the four steps listed above;
+Firstly, the input file, i.e., hello.c, is passed to the preprocessor, and the preprocessor converts the source code into expanded source code. The extension of the expanded source code would be hello.i.
+The expanded source code is passed to the compiler, and the compiler converts this expanded source code into assembly code. The extension of the assembly code would be hello.s.
+This assembly code is then sent to the assembler, which converts the assembly code into object code and it would be hello.obj
+After the creation of an object code, the linker creates the executable file. The loader will then load the executable file for the execution which is hello.exe or a.out in UNIX.
+
+Printf() and Scanf() in C;
+The printf() and scanf() functions are used for input and output in C language. Both functions are inbuilt library functions, defined in stdio.h (header file).
+The printf() function is used for output. It prints the given statement to the console.
+The syntax of printf() function is given as; printf("format string",argument_list);
+The format string can be %d (integer), %c (character), %s (string), %f (float) etc.
+The scanf() function is used for input. It reads the input data from the console.
+The syntax for the scanf() function is given as; scanf("format string",argument_list);

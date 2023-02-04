@@ -15,7 +15,6 @@ HISTORY OF C: C programming language was developed in 1972 by Dennis Ritchie at 
 FEATURES OF C LANGUAGE;
 1) Simple:C is a simple language in the sense that it provides a structured approach (to break the problem into parts), the rich set of library functions, data types, etc.
 2) Machine Independent or Portable: Unlike assembly language, c programs can be executed on different machines with some machine specific changes. Therefore, C is a machine independent language.
-
 3) Mid-level programming language: Although, C is intended to do low-level programming. It is used to develop system applications such as kernel, driver, etc. It also supports the features of a high-level language. That is why it is known as mid-level language.
 4) Structured programming language: C is a structured programming language in the sense that we can break the program into parts using functions. So, it is easy to understand and modify. Functions also provide code reusability.
 5) Rich Library:C provides a lot of inbuilt functions that make the development fast.
