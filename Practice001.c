@@ -9,7 +9,7 @@ Lets try to print something.
 #include <stdio.h>
 
 int main(){
-    printf("Hello World");
+    printf("Hello World");// prints Hello World
 
     return 0;
 }

@@ -1,0 +1,62 @@
+A variable is a name of the memory location. It is used to store data, Its values can be changed and it can be reused many times. It is also a way to represent memory location though symbol so that it can be easily identified.
+The syntax to declare a variable is - type variable_list;
+Examples of declaring the variables are; int a; char c; float b; double d; The a,b,c and d are variables, while float,int,char and double are the data types.
+We can also declare 2 variables; E.g;int a=10,b=20; float f=20.8;  char c='A'; 
+Rules for defining Variables; A variable can have alphabets, digits, and underscore. E.g; int a; int a30; int _ab;
+A variable name can start with the alphabet, and underscore only. It can't start with a digit.
+No whitespace is allowed within the variable name. E.g; int a b;
+A variable name must not be any reserved word or keyword, e.g. int, float, int long etc.
+Types of Variables in C;
+Local Variable: A variable that is declared inside the function or block is called a local variable. It must be declared at the start of the block and you must have to initialize the local variable before it is used.
+ E.g; void function1(){  
+int x=10;//local variable  
+}  
+Global Variable: A variable that is declared outside the function or block is called a global variable. Any function can change the value of the global variable. It is available to all the functions. It must be declared at the start of the block. 
+E.g; int value=20;//global variable  
+void function1(){  
+int x=10;//local variable  
+}  
+Static Variable: This is a variable that is declared with the static keyword. It retains its value between multiple function calls.
+E.g; void function1(){  
+int x=10;//local variable  
+static int y=10;//static variable  
+x=x+1;  
+y=y+1;  
+printf("%d,%d",x,y);  
+} 
+In the above example, the local variable only prints 11 each time the function is called but the static variable will print an incremented value in each function call which are 11,12,13 and so on.
+Automatic Variable: All variables in C that are declared inside the block are automatic variables by default. We can declare an automatic variable using auto keyword.
+E.g; void main(){  
+int x=10;//local variable (also automatic)  
+auto int y=20;//automatic variable  
+}
+External Variable: We share variable in multiple C source files by using external variable. We use the extern keyword to declare an external variable.
+E.g; extern int x=10;//external variable (also global).
+Data Types in C: A data type specifies the type of data that a variable can store such as integer,character,floating. etc.
+Basic data types includes; int,char,float,double etc.
+Derived data types includes; array,pointer,structure,union.
+Enumeration data types include; enum.
+Void data types include; void.
+Basic data types and their sizes;
+Data Types	Memory Size	for 32&64 it compiler respectively
+char - 1 byte - 1byte
+signed char	- 1 byte - 1 byte
+unsigned char - 1 byte - 1 byte
+short - 2 byte - 2 byte
+signed short - 2 byte - 2byte
+unsigned short - 2 byte - 2 byte
+int - 4 byte - 4 bytes
+signed int - 4 byte - 4 byte
+unsigned int - 4 byte - 4 byte
+short int - 4 byte
+signed short int - 2 byte
+unsigned short int - 2 byte
+long int - 4 byte
+signed long int - 4 byte
+unsigned long int - 4 byte
+float - 4 byte	- 4 byte
+double - 8 byte	- 8 byte
+long double - 16 byte - 16 byte
+Reserved Keywords in C: They are considered words that cannot be used as variable names, constant name, etc. They are;
+auto, break, case, char, const,continue, default, do, double, else, enum, extern, float, for, goto, if, int, long, register, return, short, signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile, while.
+C Identifiers: We can say that an identifier is a collection of alphanumeric characters that begins either with an alphabetical character or an underscore, which are used to represent various programming elements such as variables, functions, arrays, structures, unions, labels, etc. There are 52 alphabetical characters (uppercase and lowercase), underscore character, and ten numerical digits (0-9) that represent the identifiers. There is a total of 63 alphanumerical characters that represent the identifiers. Same rule for defining a variable is applicable for C identifiers. C Identifiers are also case sensitive.
