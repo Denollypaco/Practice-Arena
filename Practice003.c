@@ -1,4 +1,4 @@
-// Print the sum of two numbers
+// Print the sum of two numbers entered by the user
 
 #include <stdio.h>
 

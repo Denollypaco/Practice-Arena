@@ -1,4 +1,5 @@
-The C Language is developed by Dennis Ritchie(Founder of C language) in 1972 @bell labs in AT&T(American Telephone and Telegraph) America for creating system applications that directly interact with the hardware devices such as drivers, kernels, etc.
+HISTORY OF C: C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A. It was developed to overcome the problems of previous languages such as B, BCPL, etc. C language was developed to be used in UNIX operating system. Before C, we had the likes of Algol, BCPL,B, Traditional C, ANSI C, C99 etc. 
+It is used for creating system applications that directly interact with the hardware devices such as drivers, kernels, etc.
 It is considered as the base for other programming languages, that is why it is known as mother language.
 C programming is defined as a;
 Mother language: is considered as the mother language of all the modern programming languages because most of the compilers, JVMs, Kernels, etc. are written in C language, and most of the programming languages follow C syntax, for example, C++, Java, C#, etc.
@@ -11,7 +12,6 @@ Mid-level programming language: C is considered as a middle-level language becau
 A Low-level language is specific to one machine, i.e., machine dependent. It is machine dependent, fast to run. But it is not easy to understand.
 A High-Level language is not specific to one machine, i.e., machine independent. It is easy to understand.
 C language is not object oriented, it is statistically typed.
-HISTORY OF C: C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A. It was developed to overcome the problems of previous languages such as B, BCPL, etc. C language was developed to be used in UNIX operating system. Before C, we had the likes of Algol, BCPL,B, Traditional C, ANSI C, C99 etc.
 FEATURES OF C LANGUAGE;
 1) Simple:C is a simple language in the sense that it provides a structured approach (to break the problem into parts), the rich set of library functions, data types, etc.
 2) Machine Independent or Portable: Unlike assembly language, c programs can be executed on different machines with some machine specific changes. Therefore, C is a machine independent language.

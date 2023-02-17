@@ -1,0 +1,17 @@
+Comments in C are hints that a programmer can add to make their code easier to read and understand.
+Comments are ignored by C compilers.
+Types of Comments in C; They are two ways to add comment in C and they are;
+Single - Line Comment: A single line comment starts with double forward slash // and it starts and end in the same line. E.g; // Print an integer.
+We can also use a single line comment together with a code.
+ E.g; int age=25; // Print integer variable. In this example, our code can be printed even with the comment added, but if a code is added to a comment, it can't be printed.
+Multi - Line comment:This comment starts with a forward slash and an astericks and ends with an astericks with a backlash /*comment*/. 
+It can contain multiple lines of comment. 
+E.g; /* Print the age and height of an individual.
+The age and height should be inputed by a user and stored in the age and height variable */
+The C compiler also ignores everything in this comment.
+Uses of Comments in C:
+It makes code easier to understand because by adding comment, it will make us understand the code in the future instead of spending time in a code written by us and then it allow other developers to understand if they want to use your code.
+We use comments for debugging, for example in a situation where we no longer need some part of code in a program, instead of removing the code, we can comment them thereby making it obsolete.
+NB: Comments should not be used to explain poorly written code, we should rather use it to make our code understandable.
+For single line comment shortcut on windows; ctrl+/ and mac cmd+/
+For multi line comment shortcut on windows; ctrl+shift+/ and mac cmd+shift+/

@@ -10,7 +10,7 @@ The expanded source code is passed to the compiler, and the compiler converts th
 This assembly code is then sent to the assembler, which converts the assembly code into object code and it would be hello.obj
 After the creation of an object code, the linker creates the executable file. The loader will then load the executable file for the execution which is hello.exe or a.out in UNIX.
 
-Printf() and Scanf() in C;
+C Input/Output(Printf() and Scanf());
 The printf() and scanf() functions are used for input and output in C language. Both functions are inbuilt library functions, defined in stdio.h (header file).
 The printf() function is used for output. It prints the given statement to the console.
 The syntax of printf() function is given as; printf("format string",argument_list);

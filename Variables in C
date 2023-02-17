@@ -37,26 +37,27 @@ Basic data types includes; int,char,float,double etc.
 Derived data types includes; array,pointer,structure,union.
 Enumeration data types include; enum.
 Void data types include; void.
-Basic data types and their sizes;
-Data Types	Memory Size	for 32&64 it compiler respectively
-char - 1 byte - 1byte
-signed char	- 1 byte - 1 byte
-unsigned char - 1 byte - 1 byte
-short - 2 byte - 2 byte
-signed short - 2 byte - 2byte
-unsigned short - 2 byte - 2 byte
-int - 4 byte - 4 bytes
-signed int - 4 byte - 4 byte
-unsigned int - 4 byte - 4 byte
-short int - 4 byte
-signed short int - 2 byte
-unsigned short int - 2 byte
-long int - 4 byte
-signed long int - 4 byte
-unsigned long int - 4 byte
-float - 4 byte	- 4 byte
-double - 8 byte	- 8 byte
-long double - 16 byte - 16 byte
+Basic data types, their Sizes and Format specifiers
+Type	Size (bytes)	Format Specifier
+int	at least 2, usually 4	%d, %i
+char	1	%c
+float	4	%f
+double	8	%lf
+short int	2 usually	%hd
+unsigned int	at least 2, usually 4	%u
+long int	at least 4, usually 8	%ld, %li
+long long int	at least 8	%lld, %lli
+unsigned long int	at least 4	%lu
+unsigned long long int	at least 8	%llu
+signed char	1	%c
+unsigned char	1	%c
+long double	at least 10, usually 12 or 16	%Lf
 Reserved Keywords in C: They are considered words that cannot be used as variable names, constant name, etc. They are;
 auto, break, case, char, const,continue, default, do, double, else, enum, extern, float, for, goto, if, int, long, register, return, short, signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile, while.
 C Identifiers: We can say that an identifier is a collection of alphanumeric characters that begins either with an alphabetical character or an underscore, which are used to represent various programming elements such as variables, functions, arrays, structures, unions, labels, etc. There are 52 alphabetical characters (uppercase and lowercase), underscore character, and ten numerical digits (0-9) that represent the identifiers. There is a total of 63 alphanumerical characters that represent the identifiers. Same rule for defining a variable is applicable for C identifiers. C Identifiers are also case sensitive.
+Rules for naming Identifiers:
+A valid identifier can have letters (both uppercase and lowercase letters), digits and underscores.
+The first letter of an identifier should be either a letter or an underscore.
+You cannot use keywords like int, while etc. as identifiers.
+There is no rule on how long an identifier can be. However, you may run into problems in some compilers if the identifier is longer than 31 characters.
+You can choose any name as an identifier if you follow the above rule, however, give meaningful names to identifiers that make sense. 
