@@ -1,0 +1,18 @@
+The "if" statement in C evaluates the test expression inside the parenthesis (),
+if the test expression is evaluated to be true, the statement inside the body of "if" will be executed,
+but if it is false the statement inside the body of "if" won't be executed.
+The syntax of the "if" in C is; if (test expression) then you go ahead with writing your code.
+The "if...else" statement in C evaluates the test expression inside the parenthesis (), 
+if the test expression is true, the statement inside the body of "if" are executed and 
+the statement inside the body of else are skipped from execution but if the test statement in the
+"if" parenthesis is false, the statement in the "else" statement is executed and the statement in the
+"if" parenthesis is skipped from execution. 
+The syntax for if...else statement is if (test expression) {run code if test expression is true}
+else {run code if test expression is false}
+In summary, if the test expression in if is true, then is executed leaving the statement in the body of else skipped
+But if the test expression in "if" is false then is skipped and the statement in "else" is executed.
+The if else ladder allows you to check between multiple test expression and execute different statements.
+The syntax for the if else ladder is similar to the one stated above only with a little addition.
+We say, if (test expression){statements}else if(test expression2){statements}else if(test expression3){statement}...
+This goes on for as long as we want and ends with else{statements}.
+Nested if else is including an if else statemnt inside the body of another if else statement.
